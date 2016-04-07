@@ -1,0 +1,23 @@
+{
+  "name": "browserify-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp",
+    "start": "serve dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "standard": "^6.0.8",
+    "swagger-ui-browserify": "^2.1.4a",
+    "vinyl-source-stream": "^1.1.0",
+    "browserify": "^13.0.0",
+    "gulp-concat": "^2.6.0",
+    "serve": "^1.4.0"
+  }
+}
